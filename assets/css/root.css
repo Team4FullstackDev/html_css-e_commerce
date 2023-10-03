@@ -1,8 +1,20 @@
 :root {
   --body-margin: 0px;
+  --primary-color: #fc4c02;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: var(--body-margin);
   font-family: "Nunito", sans-serif;
+}
+textarea,
+select,
+input,
+button,
+a {
+  outline: none;
 }
