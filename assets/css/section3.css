@@ -1,0 +1,30 @@
+.container {
+  width: 72%;
+  margin: 0 auto;
+}
+.section__3-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 0;
+}
+.section__3-categories {
+  display: flex;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.section__3-categories-item {
+  min-height: 150px;
+  min-width: 120px;
+  text-align: center;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.section__3-categories-item-img {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section__3-categories-item-title {
+  font-size: 14px;
+}
