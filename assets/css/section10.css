@@ -31,7 +31,7 @@
  
  }
  
- .section__10_filter-button button.active {
+ .section__10_filter-button button.section__10_active {
     border-bottom: 2px solid orangered;
     color: orangered;
  }
@@ -46,7 +46,7 @@
  
  }
  
- .filter-link.active {
+ .filter-link.section__10_active {
     color: orangered;
     border-bottom: 2px solid orangered;
  }
@@ -78,7 +78,7 @@
  
  
  
- .section__10_card.hide {
+ .section__10_card.section__10_hide {
     display: none;
  }
  
