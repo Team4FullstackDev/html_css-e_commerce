@@ -1,6 +1,7 @@
 .section__2 {
   display: flex;
   justify-content: center;
+  background: -moz-linear-gradient(90deg, #8e2610 0%, #481502 100%);
   background: linear-gradient(90deg, #8e2610 0%, #481502 100%);
   background-repeat: no-repeat;
   background-size: 100% 72px;
@@ -12,10 +13,6 @@
   width: 82.5%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px 0px;
   box-sizing: border-box;
-}
-.section__2-container-shopping {
-  max-width: 900px;
-  height: 200px;
 }
 .section__2-container-shopping:nth-child(1) {
   flex: 1;
@@ -78,12 +75,13 @@
   border-radius: 10px;
 }
 .section__2-carousel {
-  max-width: 200px;
-  max-height: 500px;
+  max-width: 250px;
+  max-height: 250px;
 }
 .section__2-carousel-item {
-  height: 100%;
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
 }
 /* right sight carousel */
 .section__2-title-button {
@@ -135,4 +133,69 @@
   border: none;
   color: white;
   font-weight: bold;
+}
+.section__2-container-shopping {
+  max-width: 900px;
+  height: 200px;
+}
+
+@media screen and (max-width: 1280px) {
+  .section__2-container {
+    width: 100%;
+    margin: 0 2rem;
+  }
+  .section__2-container-shopping {
+    max-width: 100%;
+  }
+  .section__2-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .section__2-shopping-caption {
+    text-align: center;
+  }
+  .section__2-carousel {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section__2-container {
+    margin: 0;
+  }
+  .section__2-container {
+    height: fit-content;
+  }
+  .section__2-carousel-item {
+    width: 200px;
+    height: 200px;
+  }
+  .section__2-container-shopping:nth-child(1) {
+    flex-direction: column;
+    flex: 0;
+    padding-top: 2rem;
+  }
+  .section__2-container-shopping:nth-child(2) {
+    flex: 0;
+  }
+  .section__2-container-shopping-right {
+    order: -10;
+    flex: 0;
+  }
+  .section__2-container-shopping-left {
+    flex: 0;
+  }
+  .section__2-shopping-caption {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .section__2-list-store {
+    flex-wrap: wrap;
+  }
+  .section__2-title-description {
+    font-size: 16px;
+    margin-top: 5px;
+  }
 }
