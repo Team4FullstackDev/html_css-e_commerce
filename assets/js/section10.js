@@ -1,3 +1,7 @@
+
+    //created by Endri Nastiar
+
+
 const filterButtons = document.querySelectorAll(".section__10_filter-button button");
 const filterableCards = document.querySelectorAll(".section__10_filterable-card .section__10_card");
 
