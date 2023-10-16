@@ -1,10 +1,20 @@
 $(document).ready(function () {
   $(".section__2-carousel").slick({
-    dots: true,
     infinite: true,
-    speed: 300,
+    autoplaySpeed: 1500,
+    autoplay: true,
     slidesToShow: 1,
+    focusOnSelect: true,
     centerMode: true,
-    variableWidth: true,
+    nextArrow: false,
+    prevArrow: false,
   });
 });
+
+  $(".section__2-button-prev").on("click", function () {
+    $(".section__2-carousel").slick("slickPrev");
+  });
+
+  $(".section__2-button-next").on("click", function () {
+    $(".section__2-carousel").slick("slickNext");
+  });
