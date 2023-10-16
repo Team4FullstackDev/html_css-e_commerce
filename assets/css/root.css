@@ -1,6 +1,9 @@
 :root {
   --body-margin: 0px;
   --primary-color: #fc4c02;
+  --ready-stock: #41B774;
+  --pre-order: #657996;
+  --late-pre-order: #D3647A;
 }
 * {
   margin: 0;

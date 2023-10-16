@@ -1,4 +1,3 @@
-
 /* created by Endri Nastiar */
 
 .section__10_filter-tittle {
@@ -9,12 +8,12 @@
  
  .section__10_filter {
     position: relative;
-    width: 1195px;
+    width: 100%;
     margin: 20px auto;
     padding: 20px;
     background: #ffffff;
     border-radius: 4px;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: -1px -1px 15px 3px #e5e5e5;
  }
  
  .section__10_filter-button {
@@ -61,7 +60,7 @@
  .section__10_filterable-card {
     margin-top: 25px;
     display: flex;
-    gap: 8px;
+    gap: 4.6px;
     flex-wrap: wrap;
  }
  
@@ -83,9 +82,9 @@
  }
  
  .section__10_card .section__10_image {
-    width: 105%;
+    width: 165px;
     border-radius: 5px 5px 5px 5px;
-    height: 195px;
+    height: 165px;
  }
  
  
@@ -95,9 +94,9 @@
  
  .section__10_card-late-pre-order {
     font-size: 12px;
-    background: rgb(197, 62, 84);
+    background: var(--late-pre-order);
     padding: 0 12px;
-    width: 63%;
+    width: max-content;
     height: 20px;
     border-radius: 3px 3px 3px 3px;
     display: flex;
@@ -111,54 +110,58 @@
  
  .section__10_card-ready-stock {
     font-size: 12px;
-    background: rgb(6, 166, 49);
+    background: var(--ready-stock);
     padding: 0 12px;
-    width: 55%;
+    width: max-content;
     height: 20px;
     border-radius: 3px 3px 3px 3px;
     display: flex;
     align-items: center;
     color: #ffffff;
     font-weight: 700;
+    font-family: "nunito", sans-serif;
  }
  
  
  .section__10_card-pre-order {
     font-size: 12px;
-    background: rgb(103, 103, 115);
+    background: var(--pre-order);
     padding: 0 12px;
-    width: 50%;
+    width: max-content;
     height: 20px;
     border-radius: 3px 3px 3px 3px;
     display: flex;
     align-items: center;
     color: #ffffff;
     font-weight: 700;
+    font-family: "nunito", sans-serif;
  }
  
  .section__10_card-showcase {
     font-size: 12px;
     background: rgb(95, 199, 201);
     padding: 0 12px;
-    width: 50%;
+    width: max-content;
     height: 20px;
     border-radius: 3px 3px 3px 3px;
     display: flex;
     align-items: center;
     color: #ffffff;
     font-weight: 700;
+    font-family: "nunito", sans-serif;
  }
  .section__10_card-back-order {
     font-size: 12px;
     background: rgb(153, 98, 145);
     padding: 0 12px;
-    width: 50%;
+    width: max-content;
     height: 20px;
     border-radius: 3px 3px 3px 3px;
     display: flex;
     align-items: center;
     color: #ffffff;
     font-weight: 700;
+    font-family: "nunito", sans-serif;
  }
  
  
@@ -190,26 +193,20 @@
  
  
  .section__10_btnn-next {
-    border-radius: 4px;
-    border: 2px solid var(--primary-color);
-    margin-left: 217px;
- }
- 
- 
- 
- .section__10_btnn-next button {
-    color: #FFF;
-    text-align: center;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 13.8px;
-    display: flex;
-    max-width: 720px;
-    padding: 18px 244.254px 18px 254.746px;
-    flex-direction: column;
-    align-items: center;
-    flex: 1 0 0;
-    align-self: stretch;
-    background: var(--primary-color);
- }
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 10px;
+   margin: auto;
+}
+
+.section__10_btnn-next button {
+   background: var(--primary-color);
+   border: 2px solid var(--primary-color);
+   color: #ffffff;
+   font-weight: bold;
+  font-size: 1em;
+  padding: 16px 200px;
+  width: 100%;
+  max-width: 720px;
+}
