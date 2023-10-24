@@ -1,4 +1,4 @@
-/* Section 1 Created By I Made Hary Mahayana */
+/* Section 1 Created By I Made Harymahayana07 */
 .section__1 {
   background: linear-gradient(90deg, #8e2610 0%, #481502 100%);
   margin-top: 64px;
@@ -85,5 +85,11 @@
 .section__1-images-link {
   margin-left: 15px;
   background: transparent !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__1 {
+    margin-top:56px;
+  }
 }
 /* end Section 1 */
