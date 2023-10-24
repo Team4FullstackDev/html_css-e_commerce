@@ -160,7 +160,7 @@ a.nav__icons .nav__mascot {
     width: 64px;
     height: 32px;
   }
-  /* check tambahan */
+  
   .nav__modal__hamburger , .nav__modal__search {
     background: rgba(0, 0, 0, 0.75);
     display: none;
