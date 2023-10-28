@@ -111,10 +111,6 @@
   text-decoration: none;
   color: var(--primary-color);
 }
-.slick-slide {
-  background: #f5f5f5;
-  border-radius: 10px;
-}
 .section__2-carousel {
   max-width: 300px;
   height: 100%;
