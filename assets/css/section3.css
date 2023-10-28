@@ -13,13 +13,14 @@
   padding: 16px 0;
 }
 .section__3-categories {
+  width: 100%;
   display: flex;
   border-radius: 10px;
   background-color: white;
   margin-bottom: 10px;
 }
 .section__3-categories-item {
-  width: 8rem;
+  flex: 1;
   text-align: center;
   padding: 10px 6px 10px 6px;
   background-color: white;
@@ -39,7 +40,6 @@
 }
 .section__3-categories-item-img img {
   width: 100%;
-  min-width: 70px;
   height: auto;
   margin-bottom: 6px;
 }
@@ -64,8 +64,5 @@
     display: grid;
     gap: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-  .section__3-categories-item-img {
-    width: 8rem;
   }
 }

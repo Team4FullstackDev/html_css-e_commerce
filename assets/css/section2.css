@@ -90,11 +90,8 @@
 }
 .section__2-shopping-caption {
   color: white;
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: bold;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 110%;
 }
 .section__2-button {
   width: 100%;
@@ -121,6 +118,7 @@
 .section__2-carousel-item {
   height: 150px;
   margin-right: 10px;
+  border-radius: 10px;
 }
 /* right sight carousel */
 .section__2-title-button {
@@ -193,8 +191,12 @@
     width: 100%;
     margin: 0 2rem;
   }
+   .section__2-container-shopping {
+    padding-bottom: 2rem;
+  }
   .section__2-container-shopping-right {
     margin-left: 200px;
+    padding-top: 2rem;
   }
   .section__2-shopping-caption {
     font-size: 1.3rem;
@@ -262,5 +264,15 @@
   .section__2-title-description {
     font-size: 16px;
     margin-top: 5px;
+  }
+   .section__2-shopping-caption {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .section__2-shopping-caption {
+    font-size: 18px;
   }
 }
