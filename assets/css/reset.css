@@ -1,0 +1,83 @@
+.reset-page{
+    background: white;
+    max-width: 720px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.reset-page-content{
+    width: 100%;
+    max-width: 480px;
+    margin: 0px auto;
+}
+
+.reset-page-tittle{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #303030;
+}
+
+.reset-page-detail{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    text-align: center;
+    color: #606060;
+    margin-top: 16px;
+}
+
+.reset-page-form{
+    margin-top: 24px;
+}
+
+.reset-page-input{
+    border-radius: 4px;
+    border: solid 1px #d1dae8;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    color: #303030;
+    width: 100%;
+}
+
+.reset-page-button{
+    margin-top: 24px;
+    border-radius: 4px;
+    border-radius: 4px;
+    background-color: #FC4C02;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    cursor: pointer;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.reset-page_back-main{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    color: rgba(128, 128, 128, 0.84);
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+}
