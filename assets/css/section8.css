@@ -52,21 +52,12 @@
   border-radius: 4px;
   font-weight: bold;
   font-size: small;
-  background: rgb(211, 100, 122);
+  background: var(--late-pre-order);
   width: max-content;
   margin: 0;
   padding: 2px 14px 2px;
 }
-.section__8-product__status__ready {
-  color: rgb(255, 255, 255);
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: small;
-  background: rgb(36, 202, 3);
-  width: max-content;
-  margin: 0;
-  padding: 2px 14px 2px;
-}
+
 .section__8-product__name {
   font-weight: bold;
   font-size: small;
