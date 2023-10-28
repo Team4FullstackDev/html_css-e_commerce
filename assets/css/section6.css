@@ -94,3 +94,9 @@
 		transform: translateX(-100%);
 	}
 }
+
+@media screen and (max-width: 960px) {
+	.items_showcase_header_section_6 {
+		font-size: 1rem;
+	}
+}
