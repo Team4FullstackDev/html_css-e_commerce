@@ -47,22 +47,13 @@
   margin: 0 6px;
   background-color: white;
 }
-.section__9-product__status {
-  color: rgb(255, 255, 255);
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: small;
-  background: rgb(211, 100, 122);
-  width: max-content;
-  margin: 0;
-  padding: 2px 14px 2px;
-}
+
 .section__9-product__status__ready {
   color: rgb(255, 255, 255);
   border-radius: 4px;
   font-weight: bold;
   font-size: small;
-  background: rgb(36, 202, 3);
+  background: var(--ready-stock);
   width: max-content;
   margin: 0;
   padding: 2px 14px 2px;
