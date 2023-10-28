@@ -186,6 +186,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .section__2 {
+    background: white;
+  }
   .section__2-container {
     width: 100%;
     margin: 0 2rem;
