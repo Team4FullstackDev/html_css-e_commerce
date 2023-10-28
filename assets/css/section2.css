@@ -90,7 +90,6 @@
 }
 .section__2-shopping-caption {
   color: white;
-  font-size: 1.4rem;
   font-weight: bold;
 }
 .section__2-button {
@@ -191,7 +190,7 @@
     width: 100%;
     margin: 0 2rem;
   }
-   .section__2-container-shopping {
+  .section__2-container-shopping {
     padding-bottom: 2rem;
   }
   .section__2-container-shopping-right {
@@ -259,15 +258,13 @@
   .section__2-shopping-caption {
     font-size: 1.3rem;
     max-width: 400px;
-    line-height: 20px;
   }
   .section__2-title-description {
     font-size: 16px;
     margin-top: 5px;
   }
-   .section__2-shopping-caption {
+  .section__2-shopping-caption {
     font-size: 24px;
-    line-height: 1.1;
   }
 }
 
