@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Items | Kyou Hobby Shop</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://kyou.id/static/favicon-16x16.png?v=XBbA2dKjgz"
+      type="image/x-icon"
+    />
+    <!-- Our css -->
+    <link rel="stylesheet" href="assets/css/root.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+      <!-- Header By Harymahayana07 -->
+  <header>
+    <!-- nav mobile hamburger modal-->
+    <nav class="nav__modal__hamburger">
+      <div class="nav__modal-container nav__modal__menu">
+        <div class="nav__modal_mobile_top">
+          <button type="button" class="nav__modal_button-back">
+            <img class="nav__modal_button-img" src="https://kyou.id/static/img/icon/arrow-left.png"
+              alt="Kembali Ke Halaman Utama" />
+          </button>
+          <span>Account</span>
+        </div>
+        <div class="nav__modal_inner_menu">
+          <div class="nav__modal_info_card">
+            <img class="nav__modal_img-face" src="https://kyou.id/static/img/icon/face.png" alt="Face Icon Guest" />
+            <span class="nav__modal_username">Guest</span>
+          </div>
+          <hr class="nav__modal_hr" />
+          <a class="nav__modal_link_menu" href="./login.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67" fill="none"
+              class="nav__modal_svg">
+              <path
+                d="M4.25 35H44.149L33.86 45.4781C33.079 46.2581 33.079 47.6201 33.859 48.4011C34.25 48.7921 34.761 49.035 35.274 49.035C35.786 49.035 36.297 48.864 36.688 48.473L49.503 35.6721C49.878 35.2971 50.089 34.794 50.089 34.264C50.089 33.734 49.878 33.228 49.503 32.853L48.895 32.246C48.757 32.046 48.583 31.872 48.382 31.735L36.689 20.042C35.908 19.261 34.641 19.261 33.861 20.042C33.08 20.823 33.08 21.898 33.861 22.68L42.373 31H4.25C3.146 31 2.25 31.896 2.25 33C2.25 34.104 3.146 35 4.25 35Z">
+              </path>
+              <path
+                d="M64.75 59.281V9.541C64.75 4.747 60.842 0 56.003 0H30.002C25.258 0 20.75 4.576 20.75 9.541V21.381C20.75 22.485 21.646 23.381 22.75 23.381C23.854 23.381 24.75 22.485 24.75 21.381V9.541C24.75 6.792 27.471 4 30.002 4H56.003C58.65 4 60.75 6.937 60.75 9.541V59.281C60.75 61.944 58.547 63 56.003 63H30.002C27.637 63 24.75 62.113 24.75 59.281V47.381C24.75 46.277 23.854 45.381 22.75 45.381C21.646 45.381 20.75 46.277 20.75 47.381V59.281C20.75 63.974 24.931 67 30.002 67H56.003C61.188 67 64.75 63.823 64.75 59.281Z">
+              </path>
+            </svg>
+            Login
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav mobile hamburger modal -->
+
+    <!-- nav mobile search modal-->
+    <nav class="nav__modal__search">
+      <div class="nav__modal__search-container nav__modal__search_menu">
+        <div class="nav__modal__search_mobile_top">
+          <button type="button" class="nav__modal_button-search-back">
+            <img class="nav__modal_button-img" src="https://kyou.id/static/img/icon/arrow-left.png"
+              alt="Kembali Ke Halaman Utama" />
+          </button>
+          <form class="nav__modal__search_form">
+            <input type="search" placeholder="Khilaf apa hari ini?" name="search" autocomplete="off" value="">
+            </form>
+        </div>
+        <div class="nav__modal__search-content">
+          <span class="nav__modal__search-content-label">Riwayat</span>
+          <button type="button" class="nav__modal__search-content-entry">Example Searching 1</button>
+          <button type="button" class="nav__modal__search-content-entry">Example Searching 2</button>
+          <button type="button" class="nav__modal__search-content-entry">Example Searching 3</button>
+      </div>
+    </nav>
+    <!-- end nav mobile search modal -->
+
+    <!-- nav navigation  -->
+    <nav class="nav__navigation">
+      <button type="button" id="nav__modal_button-menu" class="nav__button_menu">
+        <img src="https://kyou.id/static/img/icon/menu.svg" alt="navbar menu">
+      </button>
+      <div>
+        <a class="nav__icons" href="./index.html">
+          <picture class="nav__mascot">
+            <img class="nav__mascot" src="https://kyou.id/static/img/logo/mascot.png" alt="img_mascot" />
+          </picture>
+          <picture class="nav__logo-kyou">
+            <img class="nav__img-kyou" src="https://kyou.id/static/img/logo/kyou.png" alt="img_kyou" />
+          </picture>
+        </a>
+      </div>
+      <form class="nav__form_search">
+        <input class="nav__input_search" type="search" placeholder="Khilaf apa hari ini?" />
+        <button type="submit" class="nav__search_submit">
+          <img src="https://kyou.id/static/img/icon/search.svg" alt="search icon" />
+        </button>
+      </form>
+      <div class="nav__links">
+        <a class="nav__button nav__search_mobile" id="nav__modal_button-search">
+          <img class="nav__search_mobile_img" src="https://kyou.id/static/img/icon/search_orange.svg" alt="Cart Icon" />
+        </a>
+        <a class="nav__button" href="./login.html">
+          <img class="nav__cart" src="https://kyou.id/static/img/icon/cart.svg" alt="Cart Icon" />
+        </a>
+        <a class="nav__button" href="./login.html">
+          <img src="https://kyou.id/static/img/icon/transactions.svg" alt="Transactions Icon" />
+        </a>
+        <a class="nav__button nav__wishlist_mobile" href="#">
+          <img src="https://kyou.id/static/img/icon/wishlist_navbar.svg" alt="Wishlist Icon" />
+        </a>
+      </div>
+      <div class="nav__signin">
+        <a class="nav__text_signin" href="./login.html">Sign in</a>
+      </div>
+    </nav>
+    <!-- end nav navigation -->
+  </header>
+  <!-- End Header -->
+
+  <!-- created by Endri Nastiar -->
+  <section class="section_11">
+    <div class="container">
+        <div class="section_11_content">
+        <div class="section_11_filter">
+            <span class="section_11_category">Availability</span>
+            <label class="section_11_radiodb" for="all">
+                <input type="checkbox" name="Availability" id="section_11_all">
+                <span>All Items</span>
+            </label>
+            <label class="section_11_radiodb indented" for="Ready">
+                <input type="checkbox" name="Availability" id="section_11_ready" value="ready">
+                <span>Ready Stock</span>
+            </label>
+            <label class="section_11_radiodb indented" for="po">
+                <input type="checkbox" name="Availability" id="section_11_ready" value="po">
+                <span>Pre Order</span>
+            </label>
+            <label class="section_11_radiodb indented" for="Bo">
+                <input type="checkbox" name="Availability" id="section_11_bo" value="bo">
+                <span>Back Order</span>
+            </label>
+            <label class="section_11_radiodb" for="hideclose">
+                <input type="checkbox" name="hideclose" id="section_11_hideclose">
+                <span>Hide Sold Items</span>
+            </label>
+            <label class="section_11_radiodb" for="hideshowcase">
+                <input type="checkbox" name="hideshowcase" id="section_11_hideshowcase">
+                <span>Hide ShowCase Items</span>
+            </label>
+            <label class="section_11_radiodb" for="enableprice">
+                <input type="checkbox" name="enableprice" id="section_11_enableprice">
+                <span>Enable Price Filter</span>
+            </label>
+            <label class="section_11_radiodb" for="showcass">
+                <input type="checkbox" name="showcase" id="section_11_showcase">
+                <span>Only ShowCase Items</span>
+            </label>
+            <hr>
+             <span class="section_11_category">Character & Series<button>Reset All</button></span>
+             <span class="section_11_subcategory">Category<button>Reset</button></span>
+            <div class="section_11_gory"> 
+             <span>Merchandise - Acrylic (15470)</span>
+             <span>Merchandise (12572)</span>
+             <span>Prize Figure (8122)</span>
+            </div>
+            
+             <span class="section_11_subcategory">series<button>Reset</button></span>
+            <div class="section_11_gory">    
+             <span>Kimetsu no Yaiba (4415)</span>
+             <span>Fate (4312)</span>
+             <span>Hololive (3643)</span>
+            </div>
+            
+             <span class="section_11_subcategory">Character<button>Reset</button></span>
+            <div class="section_11_gory">    
+             <span>Non Character (1994)</span>
+             <span>Hatsune Miku (1466)</span>
+             <span>Original Character (814)</span>
+            </div>
+            
+             <span class="section_11_subcategory">Brand<button>Reset</button></span>
+            <div class="section_11_gory">    
+             <span>COSPA (4764)</span>
+             <span>Bandai Spirits (4692)</span>
+             <span>Good Smile Company (4585)</span>
+            </div>
+        </div>
+
+        <div class="section_11_main">
+            <header class="section_11_heading">
+                <div class="section_11_left">
+                    <h3>All Items</h3>
+                    <span class="section_11_count">Showing 1—40 of 115222</span>
+                </div>
+                <div class="section_11_right">
+                    <span>Sort By</span>
+                    <select>
+                        <option value="relevance">Relevance</option>
+                        <option value="newest" selected="">Latest</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="highest_price">Highest Price</option>
+                        <option value="lowest_price">Lowest Price</option>
+                        <option value="wishlists">Most Liked</option>
+                    </select>
+                </div>
+            </header>
+            <div class="section_11_parameters">
+                <button type="button"><img src="https://kyou.id/static/img/icon/filter.svg" alt=""> Filters</button>
+                <button type="button"><img src="https://kyou.id/static/img/icon/sort.svg" alt=""> Latest</button>
+            </div>
+            <div class="section__11_filterable-card">
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image41.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    Shibuya Scramble Figure 1/7 Milim Nava - Dragon...
+                  </h6>
+                  <p class="section__11_card-date">Releases July 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 4,600,000</span><br />
+                    <span class="section__11_dp">DP IDR 1,800,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image42.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/4 B-Style Shuna - Bunny Ver. Ten...
+                  </h6>
+                  <p class="section__11_card-date">Releases June 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,950,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.500.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="assets/images/image1.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] PVC Figure 1/8 Kamado Tanjiro - Hinoka...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,250,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="assets/images/image2.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] PVC Figure 1/7 SNK Bishoujo Shiranui...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 1,750,000</span><br />
+                    <span class="section__11_dp">DP IDR 500,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="assets/images/image3.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    [FLASH PO] PVC Figure 1/7 Time Compass...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3.250.000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="assets/images/image4.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC 1/7 Figure Shigure Ui - Virtual Youtuber
+                  </h6>
+                  <p class="section__11_card-date">Releases December 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2.950.000</span><br />
+                    <span class="section__11_dp">DP IDR 900.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image5.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready-Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC 1/7 Lancer / Tamamo no Mae - Swimsuit...
+                  </h6>
+                  <p class="section__11_card-date">Releases April 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,350,000</span><br />
+                    <span class="section__11_dp">DP IDR 700,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image6.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] Mini Figure Hatsune Miku - Lotus ...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 740,000</span><br />
+                    <span class="section__11_dp">DP IDR 200,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image7.png" alt="po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    [FLASH PO] [Cast Off] PVC Figure 1/6 Kanon Mannoj...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,450,000</span><br />
+                    <span class="section__11_dp">DP IDR 1,100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_po">
+                <img src="./assets/images/image8.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] [With LED Base] Precious G.E.M. GEM Se...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 4,350,000</span><br />
+                    <span class="section__11_dp">DP IDR 2,150,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image9.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    [Box Damaged] PVC Figure 1/7 Xiao Vigilant Yaksha...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,850,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image10.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    Portrait Of Pirates POP RE- MAXIMUM Figure Uta - ...
+                  </h6>
+                  <p class="section__11_card-date">Releases July 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 4,650,000</span><br />
+                    <span class="section__11_dp">DP IDR 1,850,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image11.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/7 Shining - For the Voyagers Ver...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,550,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image12.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/7 Iori - Swimsuit Ver. Blue Archive
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,050,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image13.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    DXF Figure Roronoa Zoro - The Grandline Men Chin...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 480,000</span><br />
+                    <span class="section__11_dp">DP IDR 100.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image14.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    Portrait Of Pirates POP P.O.P Warriors Alliance...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,820,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image15.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    Precious G.E.M Figure Paildramon - Digimon A...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,950,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image16.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/7 Caster/ Altria Caster - 2nd...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,450,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Bo">
+                <img src="./assets/images/image17.png" alt="Bo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-back-order">Back order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/7 Ahri - K/DA Ver. League of Legends
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,950,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image40.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/7 Senritsu no Tatsumaki / Terrible Tor...
+                  </h6>
+                  <p class="section__11_card-date">Releases March 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,300,000</span><br />
+                    <span class="section__11_dp">DP IDR 900,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image18.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/8 Little Mermaid - FairyTale
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,950,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image19.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/8 Makise Kurisu - Steins;Gate
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,450,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image20.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    Nendoroid Chizuru Mizuhara - Kanojo...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 1,250,000</span><br />
+                    <span class="section__11_dp">DP IDR 500.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image21.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/7 Shinji Ikari - Radio Eva Ver.
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,250,000</span><br />
+                    <span class="section__11_dp">DP IDR 500.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image22.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure YoRHa No. 2 Type B 2B DX Ver. 34c...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3.450.000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image23.png" alt="Ro" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready-Stock</p>
+                  <h6 class="section__11_card-tittle">
+                    PVC Figure 1/8 Raiden Mei - Herrscher of Thunder...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 3,950,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image24.png" alt="Lpo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-late-pre-order">Late Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    Stelle / Trailblazer Female Mini Figure -Time of Dep...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 400,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image25.png" alt="Ready" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready stock</p>
+                  <h6 class="section__11_card-tittle">
+                    [Set of 6 with Bonus] Honkai: Star Rail Mini Fi...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 2,050,000</span><br />
+                    <span class="section__11_dp">DP IDR 600,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image26.png" alt="Ready" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready stock</p>
+                  <h6 class="section__11_card-tittle">
+                    Jing Yuan Mini Figure -Time of Departure- Honkai: St...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 400,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Readys">
+                <img src="./assets/images/image27.png" alt="Ready" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-ready-stock">Ready stock</p>
+                  <h6 class="section__11_card-tittle">
+                    Seele Mini Figure -Time of Departure- Honkai: Star...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 400,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Po">
+                <img src="./assets/images/image28.png" alt="Po" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-pre-order">Pre-Order</p>
+                  <h6 class="section__11_card-tittle">
+                    Luocha Mini Figure -Time of Departure- Honkai...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 400,000</span><br />
+                    <span class="section__11_dp">IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Bo">
+                <img src="./assets/images/image29.png" alt="Bo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-back-order">Back order</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] Pop Up Parade Figure Hina Amano - Te...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 620,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Bo">
+                <img src="./assets/images/image29.png" alt="Bo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-back-order">Back order</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] Pop Up Parade Figure Hina Amano - Te...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 620,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Bo">
+                <img src="./assets/images/image30.png" alt="Bo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-back-order">Back order</p>
+                  <h6 class="section__11_card-tittle">
+                    [Set of 6] Chokorin Mascot Mini Figure - NARUTO S...
+                  </h6>
+                  <p class="section__11_card-date">Releases May 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 580,000</span><br />
+                    <span class="section__11_dp">DP IDR 1.000.000</span>
+                  </p>
+                </div>
+              </div>
+  
+              <div class="section__11_card" data-name="section__11_Bo">
+                <img src="./assets/images/image32.png" alt="Bo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-back-order">Back order</p>
+                  <h6 class="section__11_card-tittle">
+                    Jujutsu Kaisen Season 2 Miniature School Unifo...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 790,000</span><br />
+                    <span class="section__11_dp">DP IDR 200,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Bo">
+                <img src="./assets/images/image31.png" alt="Bo" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-back-order">Back order</p>
+                  <h6 class="section__11_card-tittle">
+                    Jujutsu Kaisen Season 2 Miniature School Unifo...
+                  </h6>
+                  <p class="section__11_card-date">Releases January 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 790,000</span><br />
+                    <span class="section__11_dp">DP IDR 200,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Showcase">
+                <img src="./assets/images/image33.png" alt="Showcase" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-showcase">Showcase</p>
+                  <h6 class="section__11_card-tittle">
+                    [Set of 10] Winnie the Pooh Soft Vinyl Puppet...
+                  </h6>
+                  <p class="section__11_card-date">Releases December 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 610,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Showcase">
+                <img src="./assets/images/image34.png" alt="Showcase" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-showcase">Showcase</p>
+                  <h6 class="section__11_card-tittle">
+                    [Set of 10] Spider-Man Soft Vinyl Puppet Mascot
+                  </h6>
+                  <p class="section__11_card-date">Releases November 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 700,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+  
+              <div class="section__11_card" data-name="section__11_Showcase">
+                <img src="./assets/images/image35.png" alt="Showcase" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-showcase">Showcase</p>
+                  <h6 class="section__11_card-tittle">
+                    [Set of 10] Disney Classics Soft Vinyl Puppet Mascot
+                  </h6>
+                  <p class="section__11_card-date">Releases November 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 700,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Showcase">
+                <img src="./assets/images/image36.png" alt="Showcase" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-showcase">Showcase</p>
+                  <h6 class="section__11_card-tittle">
+                    [REVIVE] One Piece Manhood Figure Shirohig...
+                  </h6>
+                  <p class="section__11_card-date">Releases October 2023</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 350,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Showcase">
+                <img src="./assets/images/image37.png" alt="Showcase" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-showcase">Showcase</p>
+                  <h6 class="section__11_card-tittle">
+                    Nendoroid Toji Fushiguro - Jujutsu Kaisen
+                  </h6>
+                  <p class="section__11_card-date">Releases April 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 610,000</span><br />
+                    <span class="section__11_dp">DP IDR 100,000</span>
+                  </p>
+                </div>
+              </div>
+              <div class="section__11_card" data-name="section__11_Showcase">
+                <img src="./assets/images/image38.png" alt="Showcase" class="section__11_image" />
+                <div class="section__11_card-boody">
+                  <p class="section__11_card-showcase">Showcase</p>
+                  <h6 class="section__11_card-tittle">
+                    Nendoroid Aki Rosenthal - hololive production
+                  </h6>
+                  <p class="section__11_card-date">Releases March 2024</p>
+                  <p class="section__11_card-price">
+                    <span class="section__11_price">IDR 720,000</span><br />
+                    <span class="section__11_dp">DP IDR 200,000</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+       
+    <div class="section_11__pagination">
+      <ul class="section_11__pagination__paging">
+      <li class="section_11__disabled"><a class="" href="#" aria-label="Go to previous page">⟨</a></li>
+      <li class="section_11__active"><a class="section_11__undefined" href="#" aria-label="Go to page number 1">1</a></li>
+      <li class=""><a class="" href="#" aria-label="Go to page number 2">2</a></li>
+      <li class=""> <a class="" href="#" aria-label="Go to page number 3">3</a></li>
+      <li class=""><a class="" href="#" aria-label="Go to page number 4">4</a></li>
+      <li class=""><a class="" href="#" aria-label="Go to page number 5">5</a></li>
+      <li class=""><a class="" href="#" aria-label="Go to next page">⟩</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+  <!-- End -->
+
+  <footer class="footer">
+    <div class="footer__wrapper-contact">
+      <div class="footer__contact-help">
+        <h4>Features</h4>
+        <ul>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Alpha Store</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Figure Rescue</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Help Center (FAQ)</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Unique Request</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Partner Area (B2B Platform)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact-help">
+        <h4>Sound Your Idea!</h4>
+        <ul>
+          <li><a href="" target="_blank" rel="noreferrer noopener">lapor Bug</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Feedback</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact-tos">
+        <h4>Terms os Service</h4>
+        <ul>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Terms and Conditions</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Privacy Policy</a></li>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Return Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact-location">
+        <h4>Visit Kyou</h4>
+        <ul>
+          <li><a href="" target="_blank" rel="noreferrer noopener">Sentra Niaga 5 Blok SN5-9 No.39, Kota Harapan Indah,
+              Pusaka Rakyat, Tarumajaya, Bekasi Barat, 17214
+              <br>
+              (Seberang Bank BCA / Setelah Halte Busway Pasar Modern)
+              <br>
+              Phone: (021) 88898362
+            </a></li>
+        </ul>
+        <div class="footer__contact-payment">
+          <h4>Metode Pembayaran</h4>
+          <ul>
+            <li>
+              <img src="https://kyou.id/static/img/icon/bca.png" alt="">
+            </li>
+            <li>
+              <img src="https://kyou.id/static/img/icon/mandiri.jpg" alt="">
+            </li>
+            <li>
+              <img src="https://kyou.id/static/img/icon/bni.png" alt="">
+            </li>
+            <li>
+              <img src="https://kyou.id/static/img/icon/bri.jpg" alt="">
+            </li>
+            <li>
+              <img src="https://kyou.id/static/img/icon/jenius.svg" alt="">
+            </li>
+            <li>
+              <img src="https://kyou.id/static/img/logo/qris.svg" alt="">
+            </li>
+            <li>
+              <img src="https://kyou.id/static/img/logo/paypal.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__contact-sosmed">
+        <h4>Interact with Kyou</h4>
+        <ul>
+          <li class="footer__sosmed">
+            <a href="https://www.fb.com/kyouhobbyshop">
+              <img src="https://kyou.id/static/img/icon/facebook.svg">
+            </a>
+            <a href="https://www.bit.ly/AddKyou">
+              <img src="https://kyou.id/static/img/icon/line.svg">
+            </a>
+            <a href="https://www.instagram.com/kyouhobbyshop">
+              <img src="https://kyou.id/static/img/icon/instagram.svg">
+            </a>
+            <a
+              href="https://wa.me/6285959302131?text=Halo%20Kyou,%20saya%20datang%20dari%20website%20Kyou.id%20dan%20butuh%20bantuan.">
+              <img src="https://kyou.id/static/img/icon/whatsapp.svg">
+            </a>
+          <li class="footer__sosmed-2">
+            <img src="https://kyou.id/static/img/icon/phone.png" alt="">
+            0859 5930 2131
+          </li>
+          <li class="footer__sosmed-3">
+            <img src="https://kyou.id/static/img/icon/mail.png" alt="">
+            e-support@kyou.id
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <img class="" src="https://kyou.id/static/img/logo/kyou.png">
+      <span class="footer__tagline">Ayo cintai hobimu bareng Kyou!</span>
+      <span class="footer__copy">© 2014-2023 Kyou Hobby Shop / PT. Inovasi Tomo Kyou</span>
+    </div>
+  </footer>
+  </body>
+</html>

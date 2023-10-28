@@ -159,18 +159,20 @@
 .section__10_card-date {
   font-size: 12px;
   padding-bottom: 9px;
-  color: #606060;
+  color: gray;
 }
 
 .section__10_price {
   color: orangered;
   padding-bottom: 5px;
   font-size: 14px;
+  font-weight: 600;
 }
 
 .section__10_dp {
-  color: #565252;
-  font-size: 12px;
+  color: rgb(20, 20, 20);
+  font-size: small;
+  font-weight: 200;
 }
 
 .section__10_btnn-next {
@@ -232,6 +234,14 @@
   }
   .section__10_filter-button button {
     font-size: 13px;
-    padding: 8px 2px;
+    padding: 8px 4px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .section__10_filter-button button {
+    font-size: 11px;
+    padding: 8px 1.3px;
+    width: 100%;
   }
 }
