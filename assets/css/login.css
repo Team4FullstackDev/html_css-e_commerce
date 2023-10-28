@@ -1,0 +1,151 @@
+/* create by dosma rina br manik */
+.login{
+    padding: 24px 0px;
+}
+.login_content{
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+}
+.login_logo{
+    width: 120px;
+    height: 44.4px;
+    object-fit: contain;
+    margin: 0px auto;
+    display: block;
+}
+
+.login_tittle{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    color: #606060;
+}
+
+.login_form{
+    margin-top: 24px;
+    padding: 24px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.login_name{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    color: #808080;
+    margin-top: 15px;
+}
+.login_box{
+    border-radius: 4px;
+    border: 1px solid #d1d3d4;
+    color: #565252;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.login_forgot{
+    text-align: right;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-left: auto;
+    color: orangered;
+    text-decoration: none;
+}
+
+.login_forgot:hover{
+    text-decoration: underline;
+}
+
+.login_button{
+    margin-top: 32px;
+}
+.login_signin{
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    width: 100%;
+    cursor: pointer;
+    background: orangered;
+}
+
+.login_button_tittle{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    color: #808080;
+    margin: 16px 0px;
+    display: block;
+    text-align: center;
+}
+.login_button_fb{
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    width: 100%;
+    cursor: pointer;
+    background: #465daa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_fb{
+    filter: brightness(0) invert(1);
+    height: 20px;
+    width: 10px;
+    object-fit: contain;
+    margin-right: auto;
+}
+.login_button_tittle_fb{
+    color: inherit;
+    margin-right: auto;
+}
+
+.login_register{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    display: block;
+    margin: 16px auto 0px;
+    text-decoration: none;
+    color: orangered;
+}
+
+.login_register:hover{
+    text-decoration: underline;
+}

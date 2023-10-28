@@ -1,0 +1,95 @@
+/* Section 1 Created By I Made Harymahayana07 */
+.section__1 {
+  background: linear-gradient(90deg, #8e2610 0%, #481502 100%);
+  margin-top: 64px;
+}
+.section__1-container {
+  width: 100%;
+  position: relative;
+}
+.section__1-container2 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.section__1-container3 {
+  display: flex;
+  overflow: hidden;
+}
+.section__1-button {
+  position: absolute;
+  font-size: 32px;
+  border: none;
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  line-height: 0;
+  color: rgb(252, 76, 2);
+  background: white;
+  font-style: bold;
+  box-shadow: none;
+  cursor: pointer;
+  transition: opacity 0.25s ease, box-shadow 0.15s ease, transform 0.25s ease;
+  pointer-events: all;
+  z-index: 1;
+  opacity: 0.6;
+  transform: scale(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 6px;
+}
+.section__1-button:hover {
+  opacity: 1;
+}
+.section__1-button:first-child {
+  left: 8px;
+}
+.section__1-button:last-child {
+  right: 8px;
+}
+.section__1 {
+  padding: 20px 0;
+  margin-top: 64px;
+}
+.section__1-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-box-align: center;
+}
+.section__1-carousel {
+  width: 100%;
+  white-space: nowrap;
+}
+.section__1-images {
+  border-radius: 10px;
+  opacity: 1;
+  transition: opacity 0.25s ease 0s;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  height: 100%;
+}
+.section__1-images-link {
+  margin-left: 15px;
+  background: transparent !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__1 {
+    margin-top:56px;
+  }
+}
+/* end Section 1 */
