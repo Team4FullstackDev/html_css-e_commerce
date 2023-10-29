@@ -82,17 +82,17 @@
 }
 
 .section__10_card-late-pre-order {
-  font-size: 12px;
+  font-size: small;
+  font-weight: bold;
   background: var(--late-pre-order);
-  padding: 0 12px;
+  padding: 2px 14px 2px;
   width: max-content;
   height: 20px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 4px;
   display: flex;
   text-align: center;
   align-items: center;
   color: #ffffff;
-  font-weight: 700;
 }
 
 .section__10_card-ready-stock {
