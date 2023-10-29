@@ -1,3 +1,4 @@
+// created by Endri Nastiar
 const filterButtons = document.querySelectorAll(
   ".section__10_filter-button button"
 );
